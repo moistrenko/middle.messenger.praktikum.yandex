@@ -1,4 +1,18 @@
-<div>
-	page-sign_in
-	{{>input }}
-</div>
+<section class="section section__sign-in smiles-bg">
+	<div class="form-wrapper">
+		<div class="title-wrapper">
+			<h1	class="title">Sign in</h1>
+		</div>
+		<form action="#" class="form form__sign-in">
+			{{#each inputs}}
+				<div class="input-row">
+					{{>input }}
+				</div>
+			{{/each}}
+			<div class="btn-group">
+				баттон
+				ссылка
+			</div>
+		</form>
+	</div>
+</section>

@@ -1,9 +1,9 @@
-import Handlebars from 'handlebars';
-import tpl from './tpl.hbs';
-import './style.sass';
+import Handlebars from "handlebars";
+import tpl from "./tpl.hbs";
+import "./style.sass";
 
-Handlebars.registerPartial('input', tpl);
+Handlebars.registerPartial("input", tpl);
 
-export default (props) => {
-	return tpl(props);
-}
+export default (inputClass, inputName, placeholder) => {
+	return tpl(inputClass, inputType, inputName, placeholder);
+};
