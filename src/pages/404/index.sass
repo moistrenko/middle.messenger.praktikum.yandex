@@ -4,23 +4,23 @@
 .error-page
 	display: flex
 	justify-content: center
-.error-content 
+.error-content
 	display: flex
 	justify-content: center
 	align-items: center
 	flex-direction: column
 	position: relative
-	&::after,
-	&::before
+	&.error404::after,
+	&.error404::before
 		content: ''
 		display: block
 		width: 300px
 		height: 425px
 		position: absolute
 		background: url('../../assets/img/gomer-404.png')
-	&::after
+	&.error404::after
 		left: -340px
-	&::before
+	&.error404::before
 		right: -340px
 		transform: scale(-1, 1)
 	&__title-wrapper

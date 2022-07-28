@@ -3,6 +3,7 @@ import './src/styles/main.sass'
 import signIn from './src/pages/signIn'
 import signUp from './src/pages/signUp'
 import page404 from './src/pages/404';
+import page500 from './src/pages/500';
 
 const root = document.getElementById('root');
 const path = window.location.pathname;
@@ -17,6 +18,9 @@ switch (path) {
 	case '/sign-up':
 		root.innerHTML = signUp;
 		break;
+	case '/500':
+		root.innerHTML = page500;
+		break
 	case '/chats':
 		root.innerHTML = signUp;
 		break
