@@ -5,7 +5,7 @@ import button from "../../components/button"
 import tpl from "./tpl.hbs";
 import "./index.sass";
 
-props = {
+const props = {
 	avatar: avatar,
 	buttonValue: 'Save',
 	buttonClass: 'btn-change',

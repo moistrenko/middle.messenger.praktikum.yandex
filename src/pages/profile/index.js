@@ -4,7 +4,7 @@ import avatar from "../../assets/img/avatar.png";
 import tpl from "./tpl.hbs";
 import "./index.sass";
 
-props = {
+const props = {
 	avatar: avatar,
 	inputs: [
 		{

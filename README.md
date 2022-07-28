@@ -24,3 +24,4 @@ https://moistrenko.netlify.app
 - `npm install` — установка стабильной версии,
 - `npm run dev` — запуск версии для разработчика,
 - `npm run build` — сборка стабильной версии.
+- `npm run start` — запуск сервера express.js.

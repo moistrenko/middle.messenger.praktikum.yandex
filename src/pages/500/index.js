@@ -3,7 +3,7 @@ import tpl from './tpl.hbs';
 import './index.sass';
 
 
-props = {
+const props = {
 	image_error: image_error
 }
 
