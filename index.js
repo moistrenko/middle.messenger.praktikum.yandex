@@ -17,6 +17,9 @@ switch (path) {
 	case '/sign-up':
 		root.innerHTML = signUp;
 		break;
+	case '/chats':
+		root.innerHTML = signUp;
+		break
 	default:
-		root.innerHTML = page404();
+		root.innerHTML = page404;
 }
