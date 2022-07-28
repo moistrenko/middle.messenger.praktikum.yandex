@@ -2,6 +2,7 @@ import './src/styles/reset.sass'
 import './src/styles/main.sass'
 import signIn from './src/pages/signIn'
 import signUp from './src/pages/signUp'
+import chat from './src/pages/chat'
 import page404 from './src/pages/404';
 import page500 from './src/pages/500';
 
@@ -21,8 +22,8 @@ switch (path) {
 	case '/500':
 		root.innerHTML = page500;
 		break
-	case '/chats':
-		root.innerHTML = signUp;
+	case '/chat':
+		root.innerHTML = chat;
 		break
 	default:
 		root.innerHTML = page404;

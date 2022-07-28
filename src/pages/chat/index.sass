@@ -1,0 +1,68 @@
+@import '../../styles/fonts'
+@import '../../styles/variables'
+
+.section-chat
+	display: flex
+	
+	&__users-list
+		flex-basis: 310px
+		background-color: $gray
+		display: flex
+		flex-direction: column
+		padding: 0 10px
+		border-right: 1px solid $violet
+	&__profile-link
+		text-align: right
+		position: relative
+		padding: 21px 10px 23px
+		.profile
+			display: inline-block
+			font-size: 12px
+			line-height: 100%
+			color: $violet
+			@include ff-bold
+			text-decoration: none
+			text-align: right
+			&::after
+				content: ''
+				display: block
+				position: absolute
+				right: 0
+				top: 50%
+				transform: translateY(-50%)
+				height: 12px
+				width: 6px
+				background: url('../../assets/img/arrow.svg') no-repeat center/ contain
+	&__search
+		padding-bottom: 14px
+		border-bottom: 1px solid $violet
+		.search
+			width: 100%
+			padding: 10px 0
+			text-align: center
+			background-color: $orange
+			border-radius: 25px
+			border: none
+			font-size: 13px
+			@include ff-normal
+			color: $violet
+			outline: none
+
+	.list
+		flex-grow: 1
+		display: flex
+		justify-content: center
+		align-items: center
+		font-size: 12px
+		line-height: 100%
+		color: $violet
+		@include ff-bold
+	&__messanges
+		flex-grow: 1
+		display: flex
+		justify-content: center
+		align-items: center
+		font-size: 12px
+		line-height: 100%
+		color: $violet
+		@include ff-bold

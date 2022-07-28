@@ -1,6 +1,10 @@
-import tpl from './tpl.hbs';
-import './index.sass';
+import tpl from "./tpl.hbs";
+import "./index.sass";
 
-export default (props = {}) => {
-	return tpl(props);
-}
+const props = {
+	inputClass: "search",
+	inputType: "text",
+	inputName: "search",
+	placeholder: "Search",
+};
+export default tpl(props);
