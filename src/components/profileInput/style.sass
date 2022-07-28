@@ -1,0 +1,26 @@
+@import '../../styles/variables'
+
+.row-group
+	padding: 10px 0
+	display: flex
+	justify-content: space-between
+	align-items: center
+	border-bottom: 1px solid $violet
+	color: $violet
+	@include ff-normal
+	font-size: 13px
+	.input-label
+		@include ff-bold
+	.profile-input
+		border: none
+		font-size: 13px
+		@include ff-normal
+		color: $violet
+		outline: none
+		background-color: rgba(0,0,0,0)
+		text-align: right
+		flex-grow: 1
+		&::placeholder
+			font-size: 13px
+			@include ff-normal
+			color: $violet

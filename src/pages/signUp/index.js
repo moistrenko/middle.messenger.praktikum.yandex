@@ -5,14 +5,13 @@ import "./index.sass";
 
 const props = {
 	inputs: [
-		{ inputClass: "Email", inputType: "Email", inputName: "Email", placeholder: "Email" },
+		{ inputClass: "Email", inputType: "email", inputName: "email", placeholder: "Email" },
 		{ inputClass: "login", inputType: "text", inputName: "login", placeholder: "Login" },
-		{ inputClass: "Name", inputType: "Name", inputName: "Name", placeholder: "Name" },
-		{ inputClass: "Surname", inputType: "Surname", inputName: "Surname", placeholder: "Surname" },
-		{ inputClass: "Phone", inputType: "Phone", inputName: "Phone", placeholder: "Phone" },
-		{ inputClass: "Name", inputType: "Name", inputName: "Name", placeholder: "Name" },
+		{ inputClass: "Name", inputType: "text", inputName: "first_name", placeholder: "Name" },
+		{ inputClass: "Surname", inputType: "text", inputName: "second_name", placeholder: "Surname" },
+		{ inputClass: "Phone", inputType: "phone", inputName: "phone", placeholder: "Phone" },
 		{ inputClass: "password", inputType: "password", inputName: "password", placeholder: "Password" },
-		{ inputClass: "Confrim Password", inputType: "Confrim Password", inputName: "Confrim Password", placeholder: "Confrim Password" },
+		{ inputClass: "Confrim Password", inputType: "password", inputName: "password", placeholder: "Confrim Password" },
 	],
 };
 

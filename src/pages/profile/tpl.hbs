@@ -1,3 +1,30 @@
-<section class="section profile-page smiles-bg">
-	{{> profileAvatar}}
+<section class="section profile smiles-bg">
+	<div class="btn-container">
+		<a href="/chat" class="back-btn">
+			<svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<rect x="17.5714" y="9.14291" width="15.7143" height="2.28571" transform="rotate(-180 17.5714 9.14291)" fill="#5C00B8"/>
+				<path d="M7.57141 15.1429L1.85713 8L7.57141 0.857138" stroke="#5C00B8" stroke-width="1.6"/>
+			</svg>
+		</a>
+	</div>
+	<div class="profile__content">
+		{{> profileAvatar}}
+		<h2 class="user-name">Ivan</h2>
+		{{#each inputs}}
+			{{> profileInput}}
+		{{/each}}
+		<div class="changes-block-btn-wrapper">
+			<div class="row-group">
+			<a href="./profile-change" class="change-data input-label">Change data</a>
+			</div>
+			<div class="row-group">
+				<a href="./change-password" class="change-password input-label">Change password</a>
+			</div>
+			<div class="row-group">
+				<a href="./sign-in" class="sign-out input-label">Sign out</a>
+			</div>
+		</div>
+		
+	</div>
+	
 </section>

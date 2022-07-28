@@ -5,6 +5,8 @@ import signIn from './src/pages/signIn'
 import signUp from './src/pages/signUp'
 import chat from './src/pages/chat'
 import profile from './src/pages/profile'
+import profileChange from './src/pages/profileChange'
+import changePassword from './src/pages/changePassword'
 import page404 from './src/pages/404';
 import page500 from './src/pages/500';
 
@@ -26,6 +28,12 @@ switch (path) {
 		break
 	case '/profile':
 		root.innerHTML = profile;
+		break
+	case '/profile-change':
+		root.innerHTML = profileChange;
+		break
+	case '/change-password':
+		root.innerHTML = changePassword;
 		break
 	case '/500':
 		root.innerHTML = page500;
