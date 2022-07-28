@@ -4,15 +4,15 @@
 			<h1	class="title">Sign in</h1>
 		</div>
 		<form action="#" class="form form__sign-in">
-			{{#each inputs}}
-				<div class="input-row">
+			<div class="inputs-wrapper">
+				{{#each inputs}}
 					{{>input }}
-				</div>
-			{{/each}}
-			<div class="btn-group">
-				баттон
-				ссылка
+				{{/each}}
 			</div>
+			<div class="btn-group">
+				{{> button buttonClass='' buttonValue="Sign in"}}
+			</div>
+			<a href="/sign-up" class="link">Create profile</a>
 		</form>
 	</div>
 </section>

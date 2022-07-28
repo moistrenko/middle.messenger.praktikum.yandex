@@ -1,3 +1,18 @@
-<div>
-	page-sign_up
-</div>
+<section class="section section__sign-in smiles-bg">
+	<div class="form-wrapper">
+		<div class="title-wrapper">
+			<h1	class="title">Sign up</h1>
+		</div>
+		<form action="#" class="form form__sign-up">
+			<div class="inputs-wrapper">
+				{{#each inputs}}
+					{{>input }}
+				{{/each}}
+			</div>
+			<div class="btn-group">
+				{{> button buttonClass='' buttonValue="Sign up"}}
+			</div>
+			<a href="/sign-up" class="link">Sign in</a>
+		</form>
+	</div>
+</section>

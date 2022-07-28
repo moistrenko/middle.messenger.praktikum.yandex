@@ -1,0 +1,36 @@
+@import '../../styles/variables'
+
+
+.input-row
+	position: relative	
+.input
+	width: 100%
+	border: none
+	font-size: 13px
+	@include ff-normal
+	color: $violet
+	border-bottom: 1px solid $orange
+	padding: 9px 0 7px
+	outline: none
+	margin-bottom: 32px
+
+	&-placeholder
+		display: none
+
+	&::placeholder
+		color: $violet
+		opacity: 0.3
+
+	&:focus
+		+ span
+			display: block
+			position: absolute
+			top: 0
+			left: 0
+			opacity: 0.3
+			font-size: 9px
+			color: $violet
+		
+		&::placeholder
+			opacity: 0
+		
