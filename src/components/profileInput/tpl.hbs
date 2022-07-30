@@ -1,0 +1,16 @@
+<div class="row-group">
+	{{#if isInput}}
+		<label for={{id}} class="input-label">{{title}}</label>
+		<input
+			class="profile-input"
+			id={{id}}
+			type={{type}}
+			name={{name}}
+			value={{value}}
+			placeholder={{placeholder}}
+		/>
+	{{else}}
+		<span class="input-label">{{title}}</span>
+		<span class="profile-input">{{value}}</span>
+	{{/if}}
+</div>
