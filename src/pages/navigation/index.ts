@@ -1,5 +1,5 @@
-import tpl from "./tpl.hbs";
-import "./index.sass";
+import tpl from './tpl.hbs';
+import './index.sass';
 
 const props = {};
 

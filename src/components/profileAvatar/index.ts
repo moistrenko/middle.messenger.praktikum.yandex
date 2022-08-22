@@ -1,9 +1,7 @@
-import Handlebars from "handlebars";
-import tpl from "./tpl.hbs";
-import "./style.sass";
+import Handlebars from 'handlebars';
+import tpl from './tpl.hbs';
+import './style.sass';
 
-Handlebars.registerPartial("profileAvatar", tpl);
+Handlebars.registerPartial('profileAvatar', tpl);
 
-export default (avatar: string) => {
-	return tpl(avatar);
-};
+export default (avatar: string) => tpl(avatar);
