@@ -3,3 +3,8 @@
 /.parcel-cache
 **/*.min.js
 /node_modules
+.eslintrc.js
+index.ts
+server.js
+postcssrc.js
+

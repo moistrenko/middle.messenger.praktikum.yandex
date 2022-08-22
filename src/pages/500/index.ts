@@ -1,6 +1,6 @@
 import image_error from '../../assets/img/meme-500.png';
 import tpl from './tpl.hbs';
-import './index.sass';
+import './style.sass';
 
 const props = {
   image_error,

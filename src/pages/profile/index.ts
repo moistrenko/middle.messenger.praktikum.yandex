@@ -2,7 +2,7 @@ import '../../components/profileAvatar';
 import '../../components/profileInput';
 import avatar from '../../assets/img/avatar.png';
 import tpl from './tpl.hbs';
-import './index.sass';
+import './style.sass';
 
 const props = {
   avatar,
