@@ -1,5 +1,5 @@
-import profileAvatar from "../../components/profileAvatar";
-import profileInput from "../../components/profileInput";
+import "../../components/profileAvatar";
+import "../../components/profileInput";
 import avatar from "../../assets/img/avatar.png";
 import tpl from "./tpl.hbs";
 import "./index.sass";

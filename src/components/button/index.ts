@@ -4,6 +4,6 @@ import "./style.sass";
 
 Handlebars.registerPartial("button", tpl);
 
-export default (buttonClass, buttonValue) => {
-	return tpl(buttonClass, buttonValue);
+export default (buttonClass: string, buttonValue: string) => {
+	return tpl({buttonClass, buttonValue});
 };

@@ -1,51 +1,51 @@
-import input from "../../components/input/index";
-import button from "../../components/button/index";
+import "../../components/input/index";
+import "../../components/button/index";
 import tpl from "./tpl.hbs";
 import "./index.sass";
 
 const props = {
 	inputs: [
-		{ 
+		{
 			inputClass: "Email",
 			inputType: "email",
 			inputName: "email",
-			placeholder: "Email"
+			placeholder: "Email",
 		},
 		{
 			inputClass: "login",
 			inputType: "text",
 			inputName: "login",
-			placeholder: "Login"
+			placeholder: "Login",
 		},
 		{
 			inputClass: "Name",
 			inputType: "text",
 			inputName: "first_name",
-			placeholder: "Name"
+			placeholder: "Name",
 		},
 		{
 			inputClass: "Surname",
 			inputType: "text",
 			inputName: "second_name",
-			placeholder: "Surname"
+			placeholder: "Surname",
 		},
 		{
 			inputClass: "Phone",
-			inputType: "phone", 
+			inputType: "phone",
 			inputName: "phone",
-			placeholder: "Phone"
+			placeholder: "Phone",
 		},
 		{
 			inputClass: "password",
 			inputType: "password",
 			inputName: "password",
-			placeholder: "Password"
+			placeholder: "Password",
 		},
 		{
 			inputClass: "Confrim Password",
 			inputType: "password",
 			inputName: "password",
-			placeholder: "Confrim Password"
+			placeholder: "Confrim Password",
 		},
 	],
 };

@@ -10,7 +10,7 @@ import changePassword from './src/pages/changePassword'
 import page404 from './src/pages/404';
 import page500 from './src/pages/500';
 
-const root = document.getElementById('root');
+const root = document.getElementById('root')!;
 const path = window.location.pathname;
 
 switch (path) {

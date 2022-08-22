@@ -1,5 +1,5 @@
-import input from "../../components/input/index";
-import button from "../../components/button/index";
+import "../../components/input";
+import "../../components/button/index";
 import tpl from "./tpl.hbs";
 import "./index.sass";
 

@@ -4,6 +4,6 @@ import "./style.sass";
 
 Handlebars.registerPartial("profileAvatar", tpl);
 
-export default (avatar) => {
+export default (avatar: string) => {
 	return tpl(avatar);
 };
