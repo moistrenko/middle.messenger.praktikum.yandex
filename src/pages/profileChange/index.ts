@@ -1,14 +1,14 @@
 import "../../components/profileAvatar";
 import "../../components/profileInput";
 import avatar from "../../assets/img/avatar.png";
-import "../../components/button"
+import "../../components/button";
 import tpl from "./tpl.hbs";
 import "./index.sass";
 
 const props = {
 	avatar: avatar,
-	buttonValue: 'Save',
-	buttonClass: 'btn-change',
+	buttonValue: "Save",
+	buttonClass: "btn-change",
 	inputs: [
 		{
 			isInput: true,

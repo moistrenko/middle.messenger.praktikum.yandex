@@ -1,7 +1,6 @@
 import tpl from "./tpl.hbs";
 import "./index.sass";
 
-const props = {
-};
+const props = {};
 
 export default tpl(props);

@@ -5,17 +5,17 @@ import "./index.sass";
 
 const props = {
 	inputs: [
-		{ 
-			inputClass: "login", 
-			inputType: "text", 
-			inputName: "login", 
-			placeholder: "Login"
+		{
+			inputClass: "login",
+			inputType: "text",
+			inputName: "login",
+			placeholder: "Login",
 		},
-		{ 
+		{
 			inputClass: "password",
 			inputType: "password",
 			inputName: "password",
-			placeholder: "Password"
+			placeholder: "Password",
 		},
 	],
 };
